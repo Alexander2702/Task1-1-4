@@ -17,6 +17,5 @@ public class Main {
         userService.cleanUsersTable();
         userService.dropUsersTable();
         Util.closeConnection();
-//        System.out.println(userService.getAllUsers());
     }
 }
